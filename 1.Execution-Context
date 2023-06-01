@@ -1,0 +1,21 @@
+There are 2 diffrent things :
+
+1.
+
+ExecutionContext -> ExecutionContextImpl
+
+/**
+ * Interface definition for object used throughout the Moqui Framework to manage contextual execution information and
+ * tool interfaces. One instance of this object will exist for each thread running code and will be applicable for that
+ * thread only.
+ */
+
+ ===========================================================================================================================
+
+2.
+ 
+ExecutionContextFactory -> ExecutionContextFactoryImpl
+/**
+ * Interface for the object that will be used to get an ExecutionContext object and manage framework life cycle.
+*/
+
